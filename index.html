@@ -1,31 +1,115 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>LKPD Manajemen Server VPS AWS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKPD Manajemen Server VPS AWS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3a5f;
+        }
+
+        .deskripsi {
+            text-align: center;
+            color: #444;
+            margin-bottom: 25px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .kotak {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #d5deea;
+            box-shadow: 0 3px 8px #00000010;
+        }
+
+        h3 {
+            color: #2563a6;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <h1>
-    Fase 1: Pengenalan Konsep VPS & Cloud
-  </h1>
-  <p>Jelaskan secara singkat pemahaman Anda mengenai perbedaan layanan berikut dengan mengisi kotak
-yang tersedia.</p>
-  
-  <h3>Shared Hosting</h3>
-  <p>Layanan hosting yang digunakan bersama oleh banyak pengguna dalam satu server. 
-    Biayanya lebih murah, tetapi sumber daya server harus dibagi dengan pengguna lain.</p>
-  
-  <h3>Dedicated Server</h3>
-  <p>Layanan server yang digunakan khusus oleh satu pengguna. 
-    Semua sumber daya server tersedia untuk pengguna tersebut, tetapi biayanya lebih mahal.</p>
-  
-  <h3>Amazon Lightsail</h3>
-  <p>Layanan cloud dari AWS yang memudahkan pengguna membuat dan mengelola server virtual 
-    dengan harga yang relatif terjangkau dan biaya yang lebih mudah diperkirakan.</p>
-  
-  <h3>Amazon EC2</h3>
-  <p>Layanan AWS yang menyediakan server virtual dengan pengaturan yang lebih fleksibel. 
-    Pengguna dapat menentukan kapasitas dan konfigurasi server sesuai kebutuhan.</p>
+
+    <h1>Fase 1: Pengenalan Konsep VPS & Cloud</h1>
+
+    <p class="deskripsi">
+        Jelaskan secara singkat pemahaman Anda mengenai
+        perbedaan layanan berikut.
+    </p>
+
+    <div class="container">
+
+        <div class="kotak">
+            <h3>1. Shared Hosting</h3>
+            <p>
+                Layanan hosting yang digunakan bersama oleh banyak
+                pengguna dalam satu server. Biayanya lebih murah,
+                tetapi sumber daya server harus dibagi dengan
+                pengguna lain.
+            </p>
+        </div>
+
+        <div class="kotak">
+            <h3>2. Dedicated Server</h3>
+            <p>
+                Layanan server yang digunakan khusus oleh satu
+                pengguna. Semua sumber daya server tersedia untuk
+                pengguna tersebut, tetapi biayanya lebih mahal.
+            </p>
+        </div>
+
+        <div class="kotak">
+            <h3>3. Amazon Lightsail</h3>
+            <p>
+                Layanan cloud dari AWS yang memudahkan pengguna
+                membuat dan mengelola server virtual dengan harga
+                yang relatif terjangkau dan biaya yang lebih mudah
+                diperkirakan.
+            </p>
+        </div>
+
+        <div class="kotak">
+            <h3>4. Amazon EC2</h3>
+            <p>
+                Layanan AWS yang menyediakan server virtual dengan
+                pengaturan yang lebih fleksibel. Pengguna dapat
+                menentukan kapasitas dan konfigurasi server sesuai
+                kebutuhan.
+            </p>
+        </div>
+
+    </div>
+
 </body>
 </html>
